@@ -1,0 +1,268 @@
+/* stylelint-disable selector-list-comma-newline-after */
+@import url("https://fonts.googleapis.com/css2?family=Jua&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
+
+.blog-header {
+  line-height: 1;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.blog-header-logo {
+  font-family: "Jua", Georgia, "Times New Roman",
+    serif /*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+  font-size: 2.25rem;
+  text-decoration: none;
+}
+
+/* .blog-header-logo:hover {
+  
+} */
+.logo-text {
+  color: #74b243;
+}
+.btn-text {
+  font-family: "Jua", Georgia, "Times New Roman";
+}
+
+.nav-title {
+  text-decoration: none;
+  font-size: 1.25rem;
+  font-family: "Jua", Georgia, "Times New Roman";
+}
+
+.title-bg {
+  background-color: #74b243;
+}
+
+.youtube {
+  padding: 7% 15% 2%;
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.imgwidth {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Jua", Georgia, "Times New Roman",
+    serif /*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+}
+
+.display-4 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  .display-4 {
+    font-size: 3rem;
+  }
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-scroller .nav-link {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 0.875rem;
+}
+
+.card-img-right {
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 {
+  height: 250px;
+}
+@media (min-width: 768px) {
+  .h-md-250 {
+    height: 250px;
+  }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+.blog-pagination > .btn {
+  border-radius: 2rem;
+}
+
+/*
+   * Blog posts
+   */
+.blog-post {
+  margin-bottom: 4rem;
+}
+.blog-post-title {
+  margin-bottom: 0.25rem;
+  font-size: 2.5rem;
+}
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
+}
+
+/*
+   * Footer
+   */
+.blog-footer {
+  padding: 2.5rem 0;
+  color: #727272;
+  text-align: center;
+  background-color: #f9f9f9;
+  border-top: 0.05rem solid #e5e5e5;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 60%;
+  /* 사진 둥글게 */
+  margin: 22px;
+}
+
+h6 {
+  font-family: "Jua", Georgia, "Times New Roman",
+    serif /*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+
+  /* padding-right: 3px; */
+}
+
+.lara {
+  padding-right: 5px;
+}
+
+.postTitle {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.container.container_padding {
+  padding: 0px;
+  padding-left: 20px;
+}
+.container {
+  background-color: white;
+}
+.container.bun {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  padding-left: 32px;
+}
+.topF1 {
+  height: 30px;
+  background-color: #f1f1f2;
+  border-radius: 10px;
+}
+.recipe_header {
+  margin-top: 15px;
+}
+
+.recipe_title {
+  text-align: center;
+}
+.round_img {
+  border-radius: 5px;
+}
+
+.green_cute {
+  color: #74b243;
+  font-size: 35px;
+}
+
+.bun_img {
+  width: 1.25rem;
+}
+
+.bun_card_body {
+  padding-left: 0px;
+  padding-right: 4px;
+  padding-bottom: 40px;
+}
+
+.bunTitle {
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+.pagination {
+  margin-top: 64px;
+  color: black;
+}
+
+.bun_happy {
+  border-radius: 100%;
+  width: 8%;
+  /* 사진 둥글게 */
+}
+
+.bun_people {
+  display: flex;
+  padding-bottom: 5px;
+}
+
+.bun_people_name {
+  display: flex;
+  align-items: center;
+  padding-left: 3px;
+  color: #6e7a7b;
+  font-size: 13px;
+
+  /* justify-content: center; */
+}
+
+.star {
+  width: 5%;
+}
+
+.bun_star {
+  display: flex;
+}
+
+.bun_star_name {
+  display: flex;
+  align-items: center;
+  padding-left: 3px;
+  color: #ada399;
+  font-size: 12px;
+}
+
+.bun_star_name2 {
+  display: flex;
+  align-items: center;
+  padding-left: 3px;
+  color: #ada399;
+  font-size: 12px;
+  padding-top: 2px;
+}
+
+.bun_card_text {
+  margin-bottom: 8px;
+}
