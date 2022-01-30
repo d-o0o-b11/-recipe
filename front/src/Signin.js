@@ -4,6 +4,8 @@ import signins from './Signin.module.scss'
 import { useHistory } from "react-router-dom";
 import { useSpring, animated } from 'react-spring'
 import axios from 'axios';
+import $ from "jquery";
+import { } from "jquery.cookie";
 axios.defaults.withCredentials = true;
 const headers = { withCredentials: true };
 
@@ -68,8 +70,11 @@ const Signin = (props) => {
 
     axios.post('http://localhost:5000/users/signin', user)
       .then(res => {
-        console.log(res.data)
+        // console.log(res.data.message)
+        // console.log(res.data.username)
         if (res.data.message) {
+          $.cookie("login_cookie", res.data.username);
+          console.log($.cookie("login_cookie"))
           window.location.href = "/";
         }
         else {
