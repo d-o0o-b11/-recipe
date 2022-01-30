@@ -1,14 +1,10 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import { Link } from "react-router-dom";
+
+import "./blog.css";
 const Nav = () => {
-  const settings = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1
-  };
+
   return (
     <div className="container">
       <header className="blog-header py-3">
@@ -18,13 +14,17 @@ const Nav = () => {
                 Subscribe
               </a>
             </div> */}
+
           <div className="col-4 text-center">
+
             <Link to="/" className="blog-header-logo logo-text">
+              <img className="logoimg" src="https://user-images.githubusercontent.com/62373865/151690746-400f593d-43ab-40eb-a6e2-888c0fc2253a.png" />
+
               오늘의 민족
             </Link>
           </div>
           <div className="col-4 d-flex justify-content-end align-items-center">
-            <a className="link-secondary" href="#" aria-label="Search">
+            {/* <a className="link-secondary" href="#" aria-label="Search">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="20"
@@ -42,10 +42,11 @@ const Nav = () => {
                 <circle cx="10.5" cy="10.5" r="7.5" />
                 <path d="M21 21l-5.2-5.2" />
               </svg>
-            </a>
+            </a> */}
+
             <Link
               to="/signIn"
-              className="btn btn-sm btn-outline-success btn-text "
+              className="btn btn-lg btn-outline-success btn-text "
             >
               Sign In
             </Link>

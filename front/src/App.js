@@ -30,7 +30,7 @@ function App() {
       <div>
         <switch>
           <Route exact path="/">
-            <NavTitle></NavTitle>
+            <NavTitle name=""></NavTitle>
             <div className="container">
               <BigTitle></BigTitle>
             </div>
@@ -48,7 +48,7 @@ function App() {
             </div>
           </Route>
           <Route exact path="/bun">
-            <NavTitle></NavTitle>
+            <NavTitle name="bun"></NavTitle>
             <div style={{ background: "#F1F1F2" }}>
               <div className="topF1"></div>
               <div className="container bun">

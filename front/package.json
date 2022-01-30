@@ -9,7 +9,10 @@
   "main": "src/index.js",
   "dependencies": {
     "@react-bootstrap/pagination": "1.0.0",
+    "axios": "^0.25.0",
     "bootstrap": "5.1.3",
+    "jquery": "^3.6.0",
+    "jquery.cookie": "^1.4.1",
     "node-sass": "^4.14.1",
     "prettier": "2.5.1",
     "react": "17.0.2",
