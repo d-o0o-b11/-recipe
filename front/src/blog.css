@@ -182,6 +182,12 @@ h6 {
   background-color: #f1f1f2;
   border-radius: 10px;
 }
+
+.topF2 {
+  height: 15px;
+  background-color: #f1f1f2;
+  border-radius: 10px;
+}
 .recipe_header {
   margin-top: 15px;
 }
@@ -272,4 +278,9 @@ h6 {
   height: 35px;
   margin-right: 20px;
   margin-bottom: 10px;
+}
+
+.recipe_container{
+  padding-right: 0px;
+  padding-left: 0px;
 }
