@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+}
+.top {
+    height: 60px;
+    background-color: #F8F8F8;
+    display: flex;
+    align-items: center;
+    font-family: "Jua", Georgia, "Times New Roman", serif;
+    font-size: 24px;
+    padding-left: 20px;
+    border: 1px solid rgb(224, 222, 222);
+  }
+
+.top2{
+    height: 600px;
+}
+
+
+.lalabel{
+    margin: 50px 30px 0px 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.lalabel2{
+    margin: 0px 48px 0px 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.lalabel3{
+    margin: 0px 70px 0px 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.lalabel4{
+    margin: 0px 87px 0px 50px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.lalabelBtn{
+    background-color: #F5F5F5;
+    border: #E5E5E5 solid 1px;
+    border-radius: 4px;
+    height: 55px;
+    width: 600px;
+    padding-left: 15px;
+}
+.lalabelBtn::placeholder {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 17px;
+    color: rgb(170,170,170);
+  }
+
+  .lalabelBtn2{
+    background-color: #F5F5F5;
+    border: #E5E5E5 solid 1px;
+    border-radius: 4px;
+    height: 120px;
+    width: 600px;
+    padding-left: 15px;
+    padding-top: 10px;
+    resize: none;
+    text-decoration: none;
+}
+.lalabelBtn2::placeholder {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 17px;
+    color: rgb(170,170,170);
+   
+  }
+
+ 
+
+.sogae{
+    display: flex;
+    margin-top: 30px;
+}
+
+
+.writeImg {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+    position: absolute;
+    top: 300px;
+    left: 1090px;
+  }
+
+.touch{
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    position: absolute;
+    top: 300px;
+    left: 1090px;
+    z-index: 999;
+}
+
+.sub{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+}
+
+.sub > button:first-child{
+    margin-right: 10px;
+}

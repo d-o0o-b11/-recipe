@@ -18,6 +18,7 @@ import SignIn from "./Signin.js";
 import { BrowserRouter, Route } from "react-router-dom";
 import PageItem from "react-bootstrap/PageItem";
 import Pagination from "react-bootstrap/Pagination";
+import Recipe from "./Recipe";
 // 경로 표현시 . 은 현재폴더
 // .. 은 상위 폴더를 의미한다.
 // 안녕하세요
@@ -68,6 +69,19 @@ function App() {
           <Route exact path="/signIn">
             <NavTitle></NavTitle>
             <SignIn></SignIn>
+          </Route>
+          <Route exact path="/recipe">
+            <NavTitle name="recipe"></NavTitle>
+            <div style={{ background: "#F1F1F2" }}>
+              <div className="topF2"></div>
+              <div className="container recipe_container">
+                <Recipe></Recipe>
+              </div>
+              <div className="topF1"></div>
+              <div className="container bun">
+                <Footer></Footer>
+              </div>
+            </div>
           </Route>
         </switch>
       </div>
