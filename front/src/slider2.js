@@ -110,7 +110,7 @@ const Sliders2 = () => {
               <Card style={style}>
                 <Card.Img variant="top" src={posts2[index]} />
                 <Card.Body>
-                  <Card.Title className="postTitle">{posts3[index]}</Card.Title>
+                  <Card.Title className="postTitle" style={{ marginTop: "0px" }} > {posts3[index]}</Card.Title>
                   <Card.Text>{posts4[index]}</Card.Text>
                   {/* <Button variant="primary">Go somewhere</Button> */}
                 </Card.Body>
@@ -171,8 +171,8 @@ const Sliders2 = () => {
             </Card.Body>
           </Card>
         </div> */}
-      </StyledSlider>
-    </div>
+      </StyledSlider >
+    </div >
   );
 };
 

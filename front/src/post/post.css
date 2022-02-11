@@ -1,0 +1,83 @@
+.go{
+  margin-right: 30px;
+}
+
+.cardImg{
+  width: 285px;
+  height: 160px;
+}
+
+.post {
+    width: 385px;
+    margin: 0px 25px 40px 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .postImg {
+    width: 385px;
+    height: 280px;
+    object-fit: cover;
+    border-radius: 7px;
+  }
+   
+  .postInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+ 
+  .postCat {
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    color: #be9656;
+    line-height: 19px;
+    margin-top: 15px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+
+   
+  .postTitle {
+    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+
+  .postDate {
+    font-family: "Lora", serif;
+    font-style: italic;
+    font-size: 13px;
+    font-weight: 400;
+    color: #999999;
+    margin-top: 15px;
+  }
+  
+
+  .postDesc {
+    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #444444;
+    margin-top: 15px;
+     /* https://ehddud100677.tistory.com/308 
+    xoverflow는 흘러넘치는 text를 처리해주는 css 이다.
+    hidden 은 넘어가는 text를 안보이게한다.  */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+     /* 아래 세줄의 코드는 세트메뉴이다. */
+    -webkit-box-orient: vertical;
+    /* 수직을 기준으로 */
+    -webkit-line-clamp: 4;
+    /* 4줄이상이면 hidden 시킨다.  */
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+  }  
