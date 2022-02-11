@@ -13,21 +13,21 @@ const userSchema = new Schema({
         // "ABC"
         // trim은 문자열 앞뒤 공백을 제거한다.
         trim: true,
-        minlength: 2
+        // minlength: 2
     },
     password: {
         type: String,
         required: true,
         unique: true,
         trim: true,
-        minlength: 8
+        // minlength: 8
     },
     email: {
         type: String,
         required: true,
         unique: true,
         trim: true,
-        minlength: 16
+        // minlength: 16
     },
 }, {
     timestamps: true,

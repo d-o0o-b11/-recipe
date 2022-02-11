@@ -20,6 +20,8 @@ import PageItem from "react-bootstrap/PageItem";
 import Pagination from "react-bootstrap/Pagination";
 import Recipe from "./Recipe";
 // 경로 표현시 . 은 현재폴더
+import Posts from "./posts/Posts";
+import Home from "./Datago/Home";
 // .. 은 상위 폴더를 의미한다.
 // 안녕하세요
 // 키보드로 드래그할때, ctrl + home은 해당줄 제일 앞까지
@@ -58,6 +60,7 @@ function App() {
                 <Bun_Slider></Bun_Slider>
                 <Bun_Slider></Bun_Slider>
                 <Bun_Slider></Bun_Slider>
+                <Home></Home>
                 <BunPagenation></BunPagenation>
               </div>
               <div className="topF1"></div>
@@ -77,10 +80,10 @@ function App() {
               <div className="container recipe_container">
                 <Recipe></Recipe>
               </div>
-              <div className="topF1"></div>
+              {/* <div className="topF1"></div>
               <div className="container bun">
                 <Footer></Footer>
-              </div>
+              </div> */}
             </div>
           </Route>
         </switch>

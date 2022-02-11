@@ -111,8 +111,8 @@ const Sliders = () => {
             <div>
               <Card style={style}>
                 <Card.Img variant="top" src={posts2[index]} />
-                <Card.Body>
-                  <Card.Title className="postTitle">{posts3[index]}</Card.Title>
+                <Card.Body >
+                  <Card.Title className="postTitle" style={{ marginTop: "0px" }}>{posts3[index]}</Card.Title>
                   <Card.Text>{posts4[index]}</Card.Text>
                   {/* <Button variant="primary">Go somewhere</Button> */}
                 </Card.Body>
