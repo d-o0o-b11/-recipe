@@ -17,7 +17,7 @@ const DetailList = (props) => {
                 <div className="tt" key={i} style={{ width: "100%" }}>
                     <label className='lab'>Step {i + 1}</label>
                     <div className="tt2">
-                        <label htmlFor={"fileInput" + i} >
+                        <label htmlFor={"fileInput" + i} style={{cursor:"pointer"}}>
                             {
                                 file[i] ? <img htmlFor={"fileInput" + i} className="writeImg1" src={URL.createObjectURL(file[i])} alt="" /> :
                                     <img htmlFor={"fileInput" + i} className="writeImg1" src="http://www.billking.co.kr/index/skin/board/basic_support/img/noimage.gif" alt="" />
@@ -32,7 +32,7 @@ const DetailList = (props) => {
                     <input
                         type="file"
                         id={"fileInput" + i}
-                        style={{ display: "none" }}
+                        style={{ display: "none"}}
                         accept='image/jpg, image/jpeg, image/png'
                         /*onChange={(e)=>insertImg(e)} */
                         onChange={(e) => {
